@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "gloriana-app": "apps/gloriana-app",
+    "gloriana-app-e2e": "apps/gloriana-app-e2e"
+  }
 }

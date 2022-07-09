@@ -1,0 +1,7 @@
+{
+  "name": "gloriana-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
