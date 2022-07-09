@@ -15,16 +15,11 @@
   </ion-header>
 
   <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <h1>Welcome gloriana-app!</h1>
-    <p>
-      Explore
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://ionicframework.com/docs/components"
-        >UI Components</a
-      >
-    </p>
+    <pdf-viewer
+      [src]="'../assets/happy-ending.pdf'"
+      [original-size]="false"
+      [show-all]="false"
+      [zoom-scale]="'page-width'"
+    ></pdf-viewer>
   </div>
 </ion-content>
